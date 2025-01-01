@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+            /*Cabeçalho*/
+#header{
+    padding: 10px 130px 10px 130px;
+    color: #FFFFFF;
+    background-color:#02A28F;
+
+}
+
+#header > h1{
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 43.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0px;
+}
+
+            /*Principal*/
+#main{
+    margin: 0px 8rem 0px 8rem;
+    grid-template-columns: 60% 20%;
+    display: grid;
+ 
+    background-color: #616161;
+}
+
+.banner{
+    padding: 24px 0px 0px 0px;
+    border-radius: 10px 0px 0px 0px;
+    margin-left: -19px;
+}
+
+.banner > img{ 
+    width: 100%;
+}
+
+                /*Aparte*/
+#aside{
+    
+    width: 450px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 20px;
+   
+    
+}
+
+#aside > h3{
+    color: #FFFFFF;
+    background-color: #02A28F;
+    padding: 16px 24px 16px 24px;
+    border-radius: 10px;
+}
+
+#aside h4, p{
+    margin: 0px;
+    margin-left: 0.8rem;
+}
+
+#aside p{
+    color: #616161;
+  
+}
+
+.sideImage{
+    display: flex;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #9b9898;
+    border-radius: 10px;
+    padding: 0.6rem;
+    margin-top: 1.2rem;
+    
+}
+
+                /*Rodapé*/
+#footer{
+color: #FFFFFF;
+padding: 17px 17px;
+background: #02A28F;
+text-align: center;
+margin-top: 48px;
+}
+
+#footer > p{
+    margin: 0px;
+}
