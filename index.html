@@ -8,49 +8,128 @@
     <title>The Dev news</title>
 </head>
 
-  <!--cabeçalho-->
-    <div id="header">
-        <h1>The Dev News</h1>
-    </div>
-
-    <!--Principal-->
-        <div id="main">
-            <div id="sidebar">
-                <div class="banner">
-                    <img src="./img/banner.svg" alt="">
-                </div> 
-            </div>
-
-               <!--<Aparte>-->
-            <div id="aside">
-                <h3>Posts populares</h3>
-                    <div class="sideImage">
-                            <img src="./img/img1.svg" alt="">
-                        <div>
-                            <h4>Desenvolvimento atual</h4>
-                            <p>22 Agosto 2022</p>
-                        </div>
-                    </div>
-                    <div class="sideImage">
-                        <img src="./img/img2.svg" alt="">
-                    <div>
-                        <h4>GitLab vs GitHub</h4>
-                        <p>22 Agosto 2022</p>
-                    </div>
-                </div>
-                <div class="sideImage">
-                    <img src="./img/img3.svg" alt="">
-                <div>
-                    <h4>Café atrapalha?</h4>
-                    <p>22 Agosto 2022</p>
-                </div>
-            </div>
-
-            </div>
-        </div>
+  <body>
     
-    <div id="footer">
-        <p>Copyright@The Dev News</p>
-    </div>
-</body>
+                        <!--Cabeçalho e menu principal-->
+    
+    <section id="navbar-1">
+        <nav class="navbar">
+            <h1 class="text-navbar">The Dev News</h1>
+        </nav>
+    </section>
+
+                        <!--Colocação de imagens-->
+
+    <main class="containt">
+        <section class="flex">
+            <article class="banner-article">
+                <img class="img-banner" src="./img/image.svg" alt="error">
+            </article>
+
+            <section class="aside-card">
+                <h3 class="title-section">Posts populare</h3>
+                <article class="article-aside-card">
+                    <img src="./img/image-1.svg" alt="error">
+                    <div class="headText">
+                        <h4 id="head-aside-card">Desevolvimento atual</h4>
+                        <p id="text-aside-card">22 Agosto 2022</p>
+                    </div>
+                </article>
+                <article class="article-aside-card">
+                    <img src="./img/image-2.svg" alt="error">
+                    <div class="headText">
+                        <h4 id="head-aside-card">GitLab vs GitHub</h4>
+                        <p id="text-aside-card">22 Agosto 2022</p>
+                    </div>
+                </article>
+                <article class="article-aside-card">
+                    <img src="./img/image-3.svg" alt="error">
+                    <div class="headText">
+                        <h4 id="head-aside-card">Café atrapalha ?</h4>
+                        <p id="text-aside-card">22 Agosto 2022</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="flex-1">
+            <article class="banner-article-1">
+                <div class="titleAndText">
+                    <h3 class="title-section-1">Posts mais recentes</h3><br>
+                    <a href="">ver mais</a>
+                </div>
+                    <section class="section-card">
+                        <article class="card">
+                            <img src="./img/banner-1.svg" alt="error">
+                            <p class="card-1" id="colory-1">desenvolvimento</p>
+                            <h3 class="card-1">Desenvolvimento mobile</h3>
+                            <p class="card-1 colory"><strong>By</strong> Fabio Tetsuo</p>
+                            <p class="card-1 colory">Lorem ipsum dolor sit amet consectetur. In<br> vitae urna commodo amet congue integer<br>
+                                dapibus. Interdum semper mauris convallis<br> fusce enim odio. Vitae montes ridiculus felis.</p>
+                            <p class="card-1 colory bottom" >22 Agosto 2022</p>
+                        </article>
+
+                        <article class="card">
+                            <img src="./img/banner-2.svg" alt="error">
+                            <p class="card-1" id="colory-1">saude</p>
+                            <h3 class="card-1">Balancear vida profissional e pessoal</h3>
+                            <p class="card-1 colory"><strong>By</strong> Ridho Satriawan</p>
+                            <p class="card-1 colory">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                            <p class="card-1 colory bottom" >22 Agosto 2022</p>
+                        </article>
+                    </section>
+                    
+                    <section class="section-card">
+                        <article class="card">
+                            <img src="./img/banner-3.jpeg" width="100%" alt="error">
+                            <p class="card-1" id="colory-1">saude</p>
+                            <h3 class="card-1">Balancear vida profissional e pessoal</h3>
+                            <p class="card-1 colory"><strong>By</strong> Ridho Satriawan</p>
+                            <p class="card-1 colory">Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                            <p class="card-1 colory bottom" >22 Agosto 2022</p>
+                        </article>
+
+                        <article class="card">
+                            <img src="./img/banner-4.jpeg" width="100%" alt="error">
+                            <p class="card-1" id="colory-1">produtividade</p>
+                            <h3 class="card-1">2 monitores ou 1 ultrawide?</h3>
+                            <p class="card-1 colory"><strong>By</strong> Fabio Tetsuo</p>
+                            <p class="card-1 colory">Lorem ipsum dolor sit amet consectetur. Arcu<br> tellus adipiscing sagittis tristique.
+                                 Eget<br> molestie posuere enim pretium venenatis<br> nunc ligula donec a. Velit senectus amet nulla.</p>
+                            <p class="card-1 colory bottom" >22 Agosto 2022</p>
+                        </article>
+                    </section>         
+            </article>
+            
+            <section class="aside-card">
+                <h3 class="title-section">Categorias</h3>
+                <label for="">
+                    <p class="text-aside-card1">>Saúde</p>
+                    <p class="text-aside-card1">(1)</p>
+                </label>
+                <label for="">
+                    <p class="text-aside-card1">>Desenvolvimento</p>
+                    <p class="text-aside-card1">(2)</p>
+                </label>
+                <label for="">
+                    <p class="text-aside-card1">>Produtividade</p>
+                    <p class="text-aside-card1">(2)</p>
+                </label>
+                <label for="">
+                    <p class="text-aside-card1">>Opinião</p>
+                    <p class="text-aside-card1">(1)</p>
+                </label>
+            </section>
+        </section>
+    </main>
+        
+                                <!--Rodapé-->
+
+    <section>
+        <footer class="foot">
+            <p class="text-foot">Copyright@The Dev News</p>
+        </footer>
+    </section>
+ 
+  </body>
 </html>
